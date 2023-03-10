@@ -22,4 +22,18 @@
 
 ## anotações 10/03/23
 
-- 
+- settings.py são as consigurações do nosso projeto
+
+### MVC: 
+- model é onde a gente vai definnir onde os dados irão ser armazenados na tabela
+- view: onde eu pego os dados da minha aplicação e vou tratar eles
+- template: pego os meus dados e coloccoo em umaa página html
+
+---
+
+- framework é uma estrutura já pré pronta, com aalguns códigos e arquivos prontos
+---
+- usar maiúsculo no python: criando constantes e quando se cria uma classe(obrigatório)
+- função: linhas de código para fazer deterrminadas funcionalidades
+- parâmetros: valores que passamos para nossa função -> são colocados dentro dos parentêses
+- request: requisição -> pega a requisição do cliente e passa para o script
