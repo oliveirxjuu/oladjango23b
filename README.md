@@ -18,3 +18,6 @@
 - django contrib: é uma caixa de ferramentas dentro do django que já vem instaladas para facilitar a vida do programador, a mais famosa é o admin, path(cadastrar um caminho de url)
 - scarrffold é uma lib para criar models e uma API simples em django rest framework
 - o django admin é uma interface de administração automática que fornece uma interface poderosa para produção para adicionar conteúdo ao site
+
+http://127.0.0.1:8000/enquete/mabou
+http://127.0.0.1:8000/enquete/

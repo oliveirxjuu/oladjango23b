@@ -8,3 +8,5 @@ def index (request): #recebe os parametros da requisição e retorna uma respost
 # view não funciona sozinha, ela precisa do consoler, que é a 
 # parte do software que recebe as requisições e passa para a view
 
+def mabou(request):
+    return HttpResponse("juliaaa")
