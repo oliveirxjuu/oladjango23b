@@ -14,8 +14,10 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
 
 urlpatterns = [
+    path("enquete/", include('enquete.urls')), # redireciona para a pasta de enquete e vai puxar os arquivos
+                                             #   da enquete que irá fazer a utilização do  INCLUDE
     path('admin/', admin.site.urls),
 ]
