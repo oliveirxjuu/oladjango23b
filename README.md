@@ -15,7 +15,7 @@
     - pip install -r requirements.txt 
 - *executar migrações iniciais*
     - python manage.py migrate
-- *CRIAR SUPER USUÁRIO*
+- *CRIAR SUPER USUÁRIO* - usuario que tem total controle sobre o sistema
     - cd itapira
     - manage.py createsuperuser
     - usuario admin
@@ -25,11 +25,6 @@
 - pip freeze mostra quais os pacotes instalados na máquina e suas versões
  
 
-
-
-
-
-
 ## aula 31/03/2023
 - crud: create, read, update e delete
     - são as operações basicas que fazemos no banco de dados
@@ -38,5 +33,13 @@
 - scarrffold é uma lib para criar models e uma API simples em django rest framework
 - o django admin é uma interface de administração automática que fornece uma interface poderosa para produção para adicionar conteúdo ao site
 
+
 http://127.0.0.1:8000/enquete/mabou
 http://127.0.0.1:8000/enquete/ 
+
+## aula 28/04/2023
+- orm: mapeador objeto relacional - nos livra de ter que fazer banco de dados na unha; ele lê o código que estamos fazendo e a partir desse codigo ele cria o banco de dados.
+
+- migração: mudanças que temos no banco de dados, como criar tabelas, modificar tabelas, etc.
+    - python manage.py makemigrations
+    - python manage.py migrate
